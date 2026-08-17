@@ -30,12 +30,12 @@
 <tr>
 <td align="center" width="33%">
 
-<img src="https://github-readme-stats.vercel.app/api?username=wmfan2002-cloud&show_icons=true&theme=chartreuse-dark&hide_border=true&title_color=00FF41&icon_color=00FF41&text_color=FFFFFF&bg_color=0D1117" alt="GitHub Stats" height="170" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=wmfan2002-cloud&show_icons=true&theme=chartreuse-dark&hide_border=true&title_color=00FF41&icon_color=00FF41&text_color=FFFFFF&bg_color=0D1117" alt="GitHub Stats" height="170" />
 
 </td>
 <td align="center" width="33%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wmfan2002-cloud&layout=compact&theme=chartreuse-dark&hide_border=true&title_color=00FF41&text_color=FFFFFF&bg_color=0D1117" alt="Top Languages" height="170" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=wmfan2002-cloud&layout=compact&theme=chartreuse-dark&hide_border=true&title_color=00FF41&text_color=FFFFFF&bg_color=0D1117" alt="Top Languages" height="170" />
 
 </td>
 <td align="center" width="33%">
@@ -53,7 +53,7 @@
 <!-- 成就奖杯 -->
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=wmfan2002-cloud&theme=matrix&no-bg=true&no-frame=true&column=7" alt="Trophies" />
+<img src="https://github-profile-trophy-liard.vercel.app/?username=wmfan2002-cloud&theme=matrix&no-bg=true&no-frame=true&column=7" alt="Trophies" />
 
 </div>
 
