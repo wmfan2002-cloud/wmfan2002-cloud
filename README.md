@@ -17,7 +17,7 @@
 <div align="center">
 
 <!-- 技术栈 -->
-<img src="https://skillicons.dev/icons?i=cpp,python,c,java,linux,git,docker,pytorch,vscode&perline=9&theme=dark" alt="Tech Stack" />
+<img src="https://skillicons.dev/icons?i=cpp,c,python,pytorch,go,rust,typescript,react,electron,vite,tailwind,r,docker,redis,mysql,linux,git,vscode&perline=9&theme=dark" alt="Tech Stack" />
 
 </div>
 
