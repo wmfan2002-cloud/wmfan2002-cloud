@@ -3,6 +3,18 @@
 <div align="center">
 
 <!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!-- ║                   🐍 SNAKE ANIMATION                          ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wmfan2002-cloud/wmfan2002-cloud/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wmfan2002-cloud/wmfan2002-cloud/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/wmfan2002-cloud/wmfan2002-cloud/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+<br/>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
 <!-- ║                    ★ PLAYER CARD ★                            ║ -->
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
@@ -74,15 +86,7 @@
 ║                                                   ║
 ```
 
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+<img src="https://skillicons.dev/icons?i=cpp,python,c,java,linux,git,docker,pytorch,vscode&perline=9&theme=dark" alt="Tech Stack" />
 
 ```
 ║                                                   ║
@@ -177,6 +181,26 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════ -->
+<!--                  METRICS PANEL                       -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+```
+╔═══════════════════════════════════════════════════╗
+║  📈 METRICS DASHBOARD                            ║
+╠═══════════════════════════════════════════════════╣
+║                                                   ║
+```
+
+<img src="https://raw.githubusercontent.com/wmfan2002-cloud/wmfan2002-cloud/main/github-metrics.svg" alt="Metrics" width="100%" />
+
+```
+║                                                   ║
+╚═══════════════════════════════════════════════════╝
+```
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════ -->
 <!--                    FOOTER                            -->
 <!-- ═══════════════════════════════════════════════════ -->
 
@@ -214,9 +238,19 @@
    找到 STATUS BARS 的 ASCII art，修改 █ 和 ░ 的数量
    
 3. 技术栈增减：
-   在 INVENTORY 区域增删 shields.io 徽章
+   在 INVENTORY 区域修改 skillicons.dev URL 的 i= 参数
+   可用图标列表见 https://skillicons.dev
    
-4. 配色方案：
+4. 贪吃蛇动画：
+   需要在 Actions 页面手动触发一次 Snake workflow
+   运行成功后会自动创建 output 分支
+   
+5. Metrics 数据面板：
+   需要创建 GitHub Classic Token (ghp_ 开头)
+   在 Settings → Secrets → Actions 中添加 METRICS_TOKEN
+   然后在 Actions 页面手动触发一次 Metrics workflow
+   
+6. 配色方案：
    主色调：#00FF41 (霓虹绿/Matrix绿)
    背景：#0D1117 (GitHub暗色)
    如需换色，全局替换这两个颜色值即可
